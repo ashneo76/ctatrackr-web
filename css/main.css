@@ -1,0 +1,80 @@
+﻿/* Ashish Shah */
+
+/****************** Tag Styles ****************************/
+*{
+	padding:0px;
+	margin:0px;
+}
+
+body{
+	min-width: 240px;
+}
+
+/****************** Class Styles ************************/
+.button{
+	display:inline-block;
+	border: 2px solid #D31145;
+	background-color:#0079C2;
+	text-decoration:none;
+	padding: 6px;
+	color:#FFFFFF;
+}
+
+.button :active {
+	background-color: #669933;
+}
+
+.infopane {
+	background-color: #33CC66;
+}
+
+.hidden{
+	display:none;
+}
+
+.content{
+	width:98%;
+	height:78%;
+	overflow:auto;
+	border: solid 1px #000000;
+	margin: 1%;
+}
+
+.footer{
+	width:98%;
+	height:8%;
+	margin:1%;
+}
+
+.label{
+	margin:.3em;
+}
+
+.optionlist{
+	margin:.1em;
+	padding-bottom:.1em;
+	width:50em;
+}
+
+.heading{
+	margin:0.5%;
+	display:inline-block;
+}
+
+/****************** ID Styles **************************/
+#header{
+	width:98%;
+	height:8%;
+	margin:1%;
+	border: dashed 1px #D31145;
+}
+
+#dashboard{
+	width:100%;	
+}
+
+#sys_time{
+	float:right;
+	margin:0.5%;
+	display:inline-block;
+}

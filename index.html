@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>CTATrackr</title>
+		<script type="text/javascript" src="js/jquery-1.5.2.js"></script>
+		<script type="text/javascript" src="js/jqXMLUtils.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<link type="text/css" rel="stylesheet" href="css/main.css" />
+	</head>
+	<body>
+		<div id="mainpage">
+			<div id="header">
+				<span id="title" class="heading">CTATrackr</span>
+				<span id="sys_time">
+					<span class="label">Time:</span>
+					<span id="time">06/22/2011 00:00 AM</span>
+				</span>
+			</div>
+			<div id="views">
+				<div id="dashboardview" class="view">
+					<div class="content">
+						<div id="dashboard">
+						</div>
+					</div>			
+					<div class="footer">
+						<a href="#" onclick="showStopAddView()" class="button">Add Stop</a>
+						<a href="#" onclick="" class="button">Refresh</a>
+					</div>
+				</div>
+				<div id="stopaddview" class="view hidden">
+					<div class="content">
+						<p class="label">Select bus route:</p>
+						<select id="busroutes" class="optionlist">
+							<option value="-1" selected="selected">---Bus Route---</option>
+						</select>
+						
+						<p class="label">Select direction:</p>
+						<select id="routedir" class="optionlist">
+							<option value="-1" selected="selected">---Route Direction---</option>
+						</select>
+						
+						<p class="label">Select stop:</p>
+						<select id="routestop" class="optionlist">
+							<option value="-1" selected="selected">---Route Stop---</option>
+						</select>
+					</div>
+					<div class="footer">
+						<a href="#" onclick="" class="button">Save Stop</a>
+						<a href="#" onclick="showDashboardView()" class="button">Back</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
